@@ -1,5 +1,19 @@
 html {
     background-color: #CCF;
-    color: #003;
+    color: #225;
     font-family: Verdana, sans-serif;
+}
+
+.title {
+    font-size: 2em;
+    text-shadow: 3px 2px 5px #77A;
+    text-align: center;
+}
+
+p {
+    margin-top: 0;
+    padding-left: 3em;
+    vertical-align: top;
+    max-width: 30em;
+    text-align: justify;
 }
