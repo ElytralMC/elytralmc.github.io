@@ -1,20 +1,6 @@
 $(document).ready(function() {
-    $("#tree-outer").append('<table style="border-collapse: collapse;"><tbody id="tree"></tbody></table>');
     var height = Math.floor(3*Math.random());
     if(height === 0) {
-        $("#tree").append('<tr id="layer0"><tr id="layer1"><tr id="layer2"><tr id="layer3"><tr id="layer4"><tr id="layer5"></tr></tr></tr></tr></tr></tr>');
-    }
-    $("#layer0").append('');
-}
-        
-        
-        
-        
-        
-        
-        
-        
-        /*
         var layer0 = 0;
         var layer1 = 0;
         var layer2 = Math.floor(5*Math.random());
@@ -51,4 +37,3 @@ $(document).ready(function() {
         $("#tree").append('<img src="/birch/img/' + layer0 + layer1 + layer2 + layer3 + layer4 + layer5 + layer6 + layer7 + 'z.png">');
     }
 });
-*/
